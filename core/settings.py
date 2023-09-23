@@ -13,7 +13,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 
-SITE_NAME = 'PLAYGROUND'
+SITE_NAME = 'PLAYGRAUND'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -21,17 +21,13 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "localhost",
-    "127.0.0.1",
-    'http://localhost:3000',
-    'http://localhost:8000',
+    "127.0.0.1"
 ]
 
 if not DEBUG:
     ALLOWED_HOSTS = [
-    "localhost",
-    "127.0.0.1",
-    'http://localhost:3000',
-    'http://localhost:8000',
+        "localhost",
+        "127.0.0.1"
     ]
 
 RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
@@ -51,7 +47,7 @@ DJANGO_APPS = [
 
 PROJECT_APPS = [
     'apps.blog',
-    'ap
+    'apps.category'
 ]
 
 THIRD_PARTY_APPS = [
@@ -117,23 +113,23 @@ DATABASES["default"]["ATOMIC_REQUESTS"] = True
 
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000',
-    'http://localhost:8000'
+    'http://localhost:8000',
 ]
 
 CSRF_TRUSTED_ORIGINS = [
     'http://localhost:3000',
-    'http://localhost:8000'
+    'http://localhost:8000',
 ]
 
 if not DEBUG:
     CORS_ORIGIN_WHITELIST = [
-    'http://localhost:3000',
-    'http://localhost:8000'
+        "localhost",
+        "127.0.0.1"
     ]
 
     CSRF_TRUSTED_ORIGINS = [
-    'http://localhost:3000',
-    'http://localhost:8000'
+        "localhost",
+        "127.0.0.1"
     ]
 
 
