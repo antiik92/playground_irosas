@@ -84,18 +84,30 @@
 
 #toolbar form input {
     border-radius: 4px;
+<<<<<<< HEAD
     font-size: 14px;
+=======
+    font-size: 0.875rem;
+>>>>>>> master
     padding: 5px;
     color: var(--body-fg);
 }
 
 #toolbar #searchbar {
+<<<<<<< HEAD
     height: 19px;
+=======
+    height: 1.1875rem;
+>>>>>>> master
     border: 1px solid var(--border-color);
     padding: 2px 5px;
     margin: 0;
     vertical-align: top;
+<<<<<<< HEAD
     font-size: 13px;
+=======
+    font-size: 0.8125rem;
+>>>>>>> master
     max-width: 100%;
 }
 
@@ -105,7 +117,11 @@
 
 #toolbar form input[type="submit"] {
     border: 1px solid var(--border-color);
+<<<<<<< HEAD
     font-size: 13px;
+=======
+    font-size: 0.8125rem;
+>>>>>>> master
     padding: 4px 8px;
     margin: 0;
     vertical-align: middle;
@@ -140,7 +156,11 @@
 }
 
 #changelist-filter h2 {
+<<<<<<< HEAD
     font-size: 14px;
+=======
+    font-size: 0.875rem;
+>>>>>>> master
     text-transform: uppercase;
     letter-spacing: 0.5px;
     padding: 5px 15px;
@@ -148,12 +168,42 @@
     border-bottom: none;
 }
 
+<<<<<<< HEAD
 #changelist-filter h3 {
+=======
+#changelist-filter h3,
+#changelist-filter details summary {
+>>>>>>> master
     font-weight: 400;
     padding: 0 15px;
     margin-bottom: 10px;
 }
 
+<<<<<<< HEAD
+=======
+#changelist-filter details summary > * {
+    display: inline;
+}
+
+#changelist-filter details > summary {
+    list-style-type: none;
+}
+
+#changelist-filter details > summary::-webkit-details-marker {
+    display: none;
+}
+
+#changelist-filter details > summary::before {
+    content: '→';
+    font-weight: bold;
+    color: var(--link-hover-color);
+}
+
+#changelist-filter details[open] > summary::before {
+    content: '↓';
+}
+
+>>>>>>> master
 #changelist-filter ul {
     margin: 5px 0;
     padding: 0 15px 15px;
@@ -173,8 +223,12 @@
 #changelist-filter a {
     display: block;
     color: var(--body-quiet-color);
+<<<<<<< HEAD
     text-overflow: ellipsis;
     overflow-x: hidden;
+=======
+    word-break: break-word;
+>>>>>>> master
 }
 
 #changelist-filter li.selected {
@@ -194,13 +248,18 @@
 }
 
 #changelist-filter #changelist-filter-clear a {
+<<<<<<< HEAD
     font-size: 13px;
+=======
+    font-size: 0.8125rem;
+>>>>>>> master
     padding-bottom: 10px;
     border-bottom: 1px solid var(--hairline-color);
 }
 
 /* DATE DRILLDOWN */
 
+<<<<<<< HEAD
 .change-list ul.toplinks {
     display: block;
     float: left;
@@ -271,6 +330,29 @@
     background: var(--link-hover-color);
 }
 
+=======
+.change-list .toplinks {
+    display: flex;
+    padding-bottom: 5px;
+    flex-wrap: wrap;
+    gap: 3px 17px;
+    font-weight: bold;
+}
+
+.change-list .toplinks a {
+    font-size: 0.8125rem;
+}
+
+.change-list .toplinks .date-back {
+    color: var(--body-quiet-color);
+}
+
+.change-list .toplinks .date-back:focus,
+.change-list .toplinks .date-back:hover {
+    color: var(--link-hover-color);
+}
+
+>>>>>>> master
 /* ACTIONS */
 
 .filtered .actions {
@@ -282,7 +364,17 @@
     vertical-align: baseline;
 }
 
+<<<<<<< HEAD
 #changelist table tbody tr.selected {
+=======
+/* Once the :has() pseudo-class is supported by all browsers, the tr.selected
+   selector and the JS adding the class can be removed. */
+#changelist tbody tr.selected {
+    background-color: var(--selected-row);
+}
+
+#changelist tbody tr:has(.action-select:checked) {
+>>>>>>> master
     background-color: var(--selected-row);
 }
 
@@ -291,22 +383,33 @@
     background: var(--body-bg);
     border-top: none;
     border-bottom: none;
+<<<<<<< HEAD
     line-height: 24px;
+=======
+    line-height: 1.5rem;
+>>>>>>> master
     color: var(--body-quiet-color);
     width: 100%;
 }
 
+<<<<<<< HEAD
 #changelist .actions.selected { /* XXX Probably unused? */
     background: var(--body-bg);
     border-top: 1px solid var(--body-bg);
     border-bottom: 1px solid #edecd6;
 }
 
+=======
+>>>>>>> master
 #changelist .actions span.all,
 #changelist .actions span.action-counter,
 #changelist .actions span.clear,
 #changelist .actions span.question {
+<<<<<<< HEAD
     font-size: 13px;
+=======
+    font-size: 0.8125rem;
+>>>>>>> master
     margin: 0 0.5em;
 }
 
@@ -316,11 +419,19 @@
 
 #changelist .actions select {
     vertical-align: top;
+<<<<<<< HEAD
     height: 24px;
     color: var(--body-fg);
     border: 1px solid var(--border-color);
     border-radius: 4px;
     font-size: 14px;
+=======
+    height: 1.5rem;
+    color: var(--body-fg);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 0.875rem;
+>>>>>>> master
     padding: 0 0 0 4px;
     margin: 0;
     margin-left: 10px;
@@ -333,17 +444,29 @@
 #changelist .actions label {
     display: inline-block;
     vertical-align: middle;
+<<<<<<< HEAD
     font-size: 13px;
 }
 
 #changelist .actions .button {
     font-size: 13px;
+=======
+    font-size: 0.8125rem;
+}
+
+#changelist .actions .button {
+    font-size: 0.8125rem;
+>>>>>>> master
     border: 1px solid var(--border-color);
     border-radius: 4px;
     background: var(--body-bg);
     box-shadow: 0 -15px 20px -10px rgba(0, 0, 0, 0.15) inset;
     cursor: pointer;
+<<<<<<< HEAD
     height: 24px;
+=======
+    height: 1.5rem;
+>>>>>>> master
     line-height: 1;
     padding: 4px 8px;
     margin: 0;

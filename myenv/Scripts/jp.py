@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #!C:\Users\User\Documents\Coderhouse\Python\Playground\myenv\Scripts\python.exe
+=======
+#!c:\Users\User\Documents\Coderhouse\Python\playground2.0\myenv\Scripts\python.exe
+>>>>>>> master
 
 import sys
 import json

@@ -16,7 +16,11 @@
     border-right: 1px solid var(--hairline-color);
     background-color: var(--body-bg);
     cursor: pointer;
+<<<<<<< HEAD
     font-size: 20px;
+=======
+    font-size: 1.25rem;
+>>>>>>> master
     color: var(--link-fg);
     padding: 0;
 }
@@ -59,8 +63,18 @@
     content: '\00AB';
 }
 
+<<<<<<< HEAD
 .main.shifted > #nav-sidebar {
     margin-left: 0;
+=======
+.main > #nav-sidebar {
+    visibility: hidden;
+}
+
+.main.shifted > #nav-sidebar {
+    margin-left: 0;
+    visibility: visible;
+>>>>>>> master
 }
 
 [dir="rtl"] .main.shifted > #nav-sidebar {

@@ -24,7 +24,11 @@
 
   function initialiseCKEditor() {
     var textareas = Array.prototype.slice.call(
+<<<<<<< HEAD
       document.querySelectorAll("textarea[data-type=ckeditortype]")
+=======
+      document.querySelectorAll("textarea[data-type=ckeditortype]"),
+>>>>>>> master
     )
     for (var i = 0; i < textareas.length; ++i) {
       var t = textareas[i]

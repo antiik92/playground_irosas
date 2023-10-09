@@ -26,8 +26,13 @@ ALLOWED_HOSTS = [
 
 if not DEBUG:
     ALLOWED_HOSTS = [
+<<<<<<< HEAD
         "localhost",
         "127.0.0.1"
+=======
+        'http://localhost:3000',
+        'http://localhost:8000',
+>>>>>>> master
     ]
 
 RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
@@ -207,6 +212,7 @@ FILE_UPLOAD_PERMISSIONS = 0o640
 EMAIL_BACKEND='django.core.mail.backends.console.EmailBackend'
 
 if not DEBUG:
+<<<<<<< HEAD
     DEFAULT_FROM_EMAIL="Uridium <mail@uridium.network>"
     EMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'
     EMAIL_HOST = env('EMAIL_HOST')
@@ -214,6 +220,15 @@ if not DEBUG:
     EMAIL_HOST_PASSWORD = env('EMAIL_HOST_PASSWORD')
     EMAIL_PORT = env('EMAIL_PORT')
     EMAIL_USE_TLS = env('EMAIL_USE_TLS')
+=======
+    DEFAULT_FROM_EMAIL = "Ivan <ivan.antiik.ir@gmail.com>"
+    EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+    EMAIL_HOST = os.environ.get('EMAIL_HOST')
+    EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
+    EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
+    EMAIL_PORT = os.environ.get('EMAIL_PORT')
+    EMAIL_USE_TLS = os.environ.get('EMAIL_USE_TLS')
+>>>>>>> master
 
     
     # django-ckeditor will not work with S3 through django-storages without this line in settings.py

@@ -50,7 +50,11 @@ class PostDetailView(APIView):
         serializer = PostSerializer(post)
         return Response({'post':serializer.data}, status=status.HTTP_200_OK)
 
+<<<<<<< HEAD
 
+=======
+'''
+>>>>>>> master
 class SearchBlogView(APIView):
 
     def get(self,request,search_term):
@@ -63,4 +67,9 @@ class SearchBlogView(APIView):
         paginator = MediumSetPagination()
         # results = paginator.paginate_queryset(matches, request)
         serializer = PostSerializer(matches, many=True)
+<<<<<<< HEAD
         return Response({'filtered_posts':serializer.data},status=status.HTTP_200_OK)
+=======
+        return Response({'filtered_posts':serializer.data},status=status.HTTP_200_OK)
+        '''
+>>>>>>> master

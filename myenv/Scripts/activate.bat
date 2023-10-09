@@ -8,7 +8,11 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
+<<<<<<< HEAD
 set VIRTUAL_ENV=C:\Users\User\Documents\Coderhouse\Python\Playground\myenv
+=======
+set VIRTUAL_ENV=c:\Users\User\Documents\Coderhouse\Python\playground2.0\myenv
+>>>>>>> master
 
 if not defined PROMPT set PROMPT=$P$G
 

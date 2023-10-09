@@ -38,7 +38,11 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
+<<<<<<< HEAD
 VIRTUAL_ENV="C:\Users\User\Documents\Coderhouse\Python\Playground\myenv"
+=======
+VIRTUAL_ENV="c:\Users\User\Documents\Coderhouse\Python\playground2.0\myenv"
+>>>>>>> master
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

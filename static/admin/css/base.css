@@ -2,6 +2,7 @@
     DJANGO Admin styles
 */
 
+<<<<<<< HEAD
 @import url(fonts.css);
 
 /* VARIABLE DEFINITIONS */
@@ -89,6 +90,92 @@
     --close-button-bg: #333333;
     --close-button-hover-bg: #666666;
   }
+=======
+/* VARIABLE DEFINITIONS */
+html[data-theme="light"],
+:root {
+    --primary: #79aec8;
+    --secondary: #417690;
+    --accent: #f5dd5d;
+    --primary-fg: #fff;
+
+    --body-fg: #333;
+    --body-bg: #fff;
+    --body-quiet-color: #666;
+    --body-loud-color: #000;
+
+    --header-color: #ffc;
+    --header-branding-color: var(--accent);
+    --header-bg: var(--secondary);
+    --header-link-color: var(--primary-fg);
+
+    --breadcrumbs-fg: #c4dce8;
+    --breadcrumbs-link-fg: var(--body-bg);
+    --breadcrumbs-bg: var(--primary);
+
+    --link-fg: #417893;
+    --link-hover-color: #036;
+    --link-selected-fg: #5b80b2;
+
+    --hairline-color: #e8e8e8;
+    --border-color: #ccc;
+
+    --error-fg: #ba2121;
+
+    --message-success-bg: #dfd;
+    --message-warning-bg: #ffc;
+    --message-error-bg: #ffefef;
+
+    --darkened-bg: #f8f8f8; /* A bit darker than --body-bg */
+    --selected-bg: #e4e4e4; /* E.g. selected table cells */
+    --selected-row: #ffc;
+
+    --button-fg: #fff;
+    --button-bg: var(--primary);
+    --button-hover-bg: #609ab6;
+    --default-button-bg: var(--secondary);
+    --default-button-hover-bg: #205067;
+    --close-button-bg: #747474;
+    --close-button-hover-bg: #333;
+    --delete-button-bg: #ba2121;
+    --delete-button-hover-bg: #a41515;
+
+    --object-tools-fg: var(--button-fg);
+    --object-tools-bg: var(--close-button-bg);
+    --object-tools-hover-bg: var(--close-button-hover-bg);
+
+    --font-family-primary:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        system-ui,
+        Roboto,
+        "Helvetica Neue",
+        Arial,
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol",
+        "Noto Color Emoji";
+    --font-family-monospace:
+        ui-monospace,
+        Menlo,
+        Monaco,
+        "Cascadia Mono",
+        "Segoe UI Mono",
+        "Roboto Mono",
+        "Oxygen Mono",
+        "Ubuntu Monospace",
+        "Source Code Pro",
+        "Fira Mono",
+        "Droid Sans Mono",
+        "Courier New",
+        monospace,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol",
+        "Noto Color Emoji";
+>>>>>>> master
 }
 
 html, body {
@@ -98,8 +185,13 @@ html, body {
 body {
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     font-size: 14px;
     font-family: "Roboto","Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif;
+=======
+    font-size: 0.875rem;
+    font-family: var(--font-family-primary);
+>>>>>>> master
     color: var(--body-fg);
     background: var(--body-bg);
 }
@@ -151,12 +243,20 @@ h1,h2,h3,h4,h5 {
 h1 {
     margin: 0 0 20px;
     font-weight: 300;
+<<<<<<< HEAD
     font-size: 20px;
+=======
+    font-size: 1.25rem;
+>>>>>>> master
     color: var(--body-quiet-color);
 }
 
 h2 {
+<<<<<<< HEAD
     font-size: 16px;
+=======
+    font-size: 1rem;
+>>>>>>> master
     margin: 1em 0 .5em 0;
 }
 
@@ -166,20 +266,32 @@ h2.subhead {
 }
 
 h3 {
+<<<<<<< HEAD
     font-size: 14px;
+=======
+    font-size: 0.875rem;
+>>>>>>> master
     margin: .8em 0 .3em 0;
     color: var(--body-quiet-color);
     font-weight: bold;
 }
 
 h4 {
+<<<<<<< HEAD
     font-size: 12px;
+=======
+    font-size: 0.75rem;
+>>>>>>> master
     margin: 1em 0 .8em 0;
     padding-bottom: 3px;
 }
 
 h5 {
+<<<<<<< HEAD
     font-size: 10px;
+=======
+    font-size: 0.625rem;
+>>>>>>> master
     margin: 1.5em 0 .5em 0;
     color: var(--body-quiet-color);
     text-transform: uppercase;
@@ -196,8 +308,13 @@ li ul {
 }
 
 li, dt, dd {
+<<<<<<< HEAD
     font-size: 13px;
     line-height: 20px;
+=======
+    font-size: 0.8125rem;
+    line-height: 1.25rem;
+>>>>>>> master
 }
 
 dt {
@@ -223,7 +340,11 @@ fieldset {
 }
 
 blockquote {
+<<<<<<< HEAD
     font-size: 11px;
+=======
+    font-size: 0.6875rem;
+>>>>>>> master
     color: #777;
     margin-left: 2px;
     padding-left: 10px;
@@ -231,9 +352,15 @@ blockquote {
 }
 
 code, pre {
+<<<<<<< HEAD
     font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
     color: var(--body-quiet-color);
     font-size: 12px;
+=======
+    font-family: var(--font-family-monospace);
+    color: var(--body-quiet-color);
+    font-size: 0.75rem;
+>>>>>>> master
     overflow-x: auto;
 }
 
@@ -255,13 +382,17 @@ hr {
     border: none;
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     font-size: 1px;
+=======
+>>>>>>> master
     line-height: 1px;
 }
 
 /* TEXT STYLES & MODIFIERS */
 
 .small {
+<<<<<<< HEAD
     font-size: 11px;
 }
 
@@ -271,6 +402,17 @@ hr {
 
 .help, p.help, form p.help, div.help, form div.help, div.help li {
     font-size: 11px;
+=======
+    font-size: 0.6875rem;
+}
+
+.mini {
+    font-size: 0.625rem;
+}
+
+.help, p.help, form p.help, div.help, form div.help, div.help li {
+    font-size: 0.6875rem;
+>>>>>>> master
     color: var(--body-quiet-color);
 }
 
@@ -300,7 +442,11 @@ p img, h1 img, h2 img, h3 img, h4 img, td img {
 }
 
 .hidden {
+<<<<<<< HEAD
     display: none;
+=======
+    display: none !important;
+>>>>>>> master
 }
 
 /* TABLES */
@@ -311,8 +457,13 @@ table {
 }
 
 td, th {
+<<<<<<< HEAD
     font-size: 13px;
     line-height: 16px;
+=======
+    font-size: 0.8125rem;
+    line-height: 1rem;
+>>>>>>> master
     border-bottom: 1px solid var(--hairline-color);
     vertical-align: top;
     padding: 8px;
@@ -327,7 +478,11 @@ thead th,
 tfoot td {
     color: var(--body-quiet-color);
     padding: 5px 10px;
+<<<<<<< HEAD
     font-size: 11px;
+=======
+    font-size: 0.6875rem;
+>>>>>>> master
     background: var(--body-bg);
     border: none;
     border-top: 1px solid var(--hairline-color);
@@ -437,7 +592,11 @@ table thead th.sorted .sortoptions a.sortremove:after {
     top: -6px;
     left: 3px;
     font-weight: 200;
+<<<<<<< HEAD
     font-size: 18px;
+=======
+    font-size: 1.125rem;
+>>>>>>> master
     color: var(--body-quiet-color);
 }
 
@@ -476,9 +635,15 @@ input, textarea, select, .form-row p, form .button {
     margin: 2px 0;
     padding: 2px 3px;
     vertical-align: middle;
+<<<<<<< HEAD
     font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
     font-weight: normal;
     font-size: 13px;
+=======
+    font-family: var(--font-family-primary);
+    font-weight: normal;
+    font-size: 0.8125rem;
+>>>>>>> master
 }
 .form-row div.help {
     padding: 2px 3px;
@@ -505,7 +670,11 @@ textarea:focus, select:focus, .vTextField:focus {
 }
 
 select {
+<<<<<<< HEAD
     height: 30px;
+=======
+    height: 1.875rem;
+>>>>>>> master
 }
 
 select[multiple] {
@@ -541,7 +710,10 @@ a.button {
 }
 
 .button.default, input[type=submit].default, .submit-row input.default {
+<<<<<<< HEAD
     float: right;
+=======
+>>>>>>> master
     border: none;
     font-weight: 400;
     background: var(--default-button-bg);
@@ -589,7 +761,11 @@ input[type=button][disabled].default {
     margin: 0;
     padding: 8px;
     font-weight: 400;
+<<<<<<< HEAD
     font-size: 13px;
+=======
+    font-size: 0.8125rem;
+>>>>>>> master
     text-align: left;
     background: var(--primary);
     color: var(--header-link-color);
@@ -597,7 +773,11 @@ input[type=button][disabled].default {
 
 .module caption,
 .inline-group h2 {
+<<<<<<< HEAD
     font-size: 12px;
+=======
+    font-size: 0.75rem;
+>>>>>>> master
     letter-spacing: 0.5px;
     text-transform: uppercase;
 }
@@ -616,12 +796,20 @@ ul.messagelist {
 ul.messagelist li {
     display: block;
     font-weight: 400;
+<<<<<<< HEAD
     font-size: 13px;
+=======
+    font-size: 0.8125rem;
+>>>>>>> master
     padding: 10px 10px 10px 65px;
     margin: 0 0 10px 0;
     background: var(--message-success-bg) url(../img/icon-yes.svg) 40px 12px no-repeat;
     background-size: 16px auto;
     color: var(--body-fg);
+<<<<<<< HEAD
+=======
+    word-break: break-word;
+>>>>>>> master
 }
 
 ul.messagelist li.warning {
@@ -635,7 +823,11 @@ ul.messagelist li.error {
 }
 
 .errornote {
+<<<<<<< HEAD
     font-size: 14px;
+=======
+    font-size: 0.875rem;
+>>>>>>> master
     font-weight: 700;
     display: block;
     padding: 10px 12px;
@@ -656,7 +848,11 @@ ul.errorlist {
 }
 
 ul.errorlist li {
+<<<<<<< HEAD
     font-size: 13px;
+=======
+    font-size: 0.8125rem;
+>>>>>>> master
     display: block;
     margin-bottom: 4px;
     overflow-wrap: break-word;
@@ -697,7 +893,11 @@ td ul.errorlist + input, td ul.errorlist + select, td ul.errorlist + textarea {
 }
 
 .description {
+<<<<<<< HEAD
     font-size: 12px;
+=======
+    font-size: 0.75rem;
+>>>>>>> master
     padding: 5px 0 0 12px;
 }
 
@@ -753,7 +953,11 @@ a.deletelink:focus, a.deletelink:hover {
 /* OBJECT TOOLS */
 
 .object-tools {
+<<<<<<< HEAD
     font-size: 10px;
+=======
+    font-size: 0.625rem;
+>>>>>>> master
     font-weight: bold;
     padding-left: 0;
     float: right;
@@ -765,7 +969,11 @@ a.deletelink:focus, a.deletelink:hover {
     display: block;
     float: left;
     margin-left: 5px;
+<<<<<<< HEAD
     height: 16px;
+=======
+    height: 1rem;
+>>>>>>> master
 }
 
 .object-tools a {
@@ -779,7 +987,11 @@ a.deletelink:focus, a.deletelink:hover {
     background: var(--object-tools-bg);
     color: var(--object-tools-fg);
     font-weight: 400;
+<<<<<<< HEAD
     font-size: 11px;
+=======
+    font-size: 0.6875rem;
+>>>>>>> master
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
@@ -808,6 +1020,7 @@ a.deletelink:focus, a.deletelink:hover {
 
 /* OBJECT HISTORY */
 
+<<<<<<< HEAD
 table#change-history {
     width: 100%;
 }
@@ -816,6 +1029,23 @@ table#change-history tbody th {
     width: 16em;
 }
 
+=======
+#change-history table {
+    width: 100%;
+}
+
+#change-history table tbody th {
+    width: 16em;
+}
+
+#change-history .paginator {
+    color: var(--body-quiet-color);
+    border-bottom: 1px solid var(--hairline-color);
+    background: var(--body-bg);
+    overflow: hidden;
+}
+
+>>>>>>> master
 /* PAGE STRUCTURE */
 
 #container {
@@ -842,6 +1072,23 @@ table#change-history tbody th {
     max-width: 100%;
 }
 
+<<<<<<< HEAD
+=======
+.skip-to-content-link {
+    position: absolute;
+    top: -999px;
+    margin: 5px;
+    padding: 5px;
+    background: var(--body-bg);
+    z-index: 1;
+}
+
+.skip-to-content-link:focus {
+    left: 0px;
+    top: 0px;
+}
+
+>>>>>>> master
 #content {
     padding: 20px 40px;
 }
@@ -905,7 +1152,11 @@ table#change-history tbody th {
     overflow: hidden;
 }
 
+<<<<<<< HEAD
 #header a:link, #header a:visited {
+=======
+#header a:link, #header a:visited, #logout-form button {
+>>>>>>> master
     color: var(--header-link-color);
 }
 
@@ -914,11 +1165,16 @@ table#change-history tbody th {
 }
 
 #branding {
+<<<<<<< HEAD
     float: left;
+=======
+    display: flex;
+>>>>>>> master
 }
 
 #branding h1 {
     padding: 0;
+<<<<<<< HEAD
     margin: 0 20px 0 0;
     font-weight: 300;
     font-size: 24px;
@@ -926,12 +1182,26 @@ table#change-history tbody th {
 }
 
 #branding h1, #branding h1 a:link, #branding h1 a:visited {
+=======
+    margin: 0;
+    margin-inline-end: 20px;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: var(--header-branding-color);
+}
+
+#branding h1 a:link, #branding h1 a:visited {
+>>>>>>> master
     color: var(--accent);
 }
 
 #branding h2 {
     padding: 0 10px;
+<<<<<<< HEAD
     font-size: 14px;
+=======
+    font-size: 0.875rem;
+>>>>>>> master
     margin: -8px 0 8px 0;
     font-weight: normal;
     color: var(--header-color);
@@ -941,6 +1211,7 @@ table#change-history tbody th {
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 #user-tools {
     float: right;
     padding: 0;
@@ -960,6 +1231,45 @@ table#change-history tbody th {
     text-decoration: none;
     border-bottom-color: var(--primary);
     color: var(--primary);
+=======
+#logout-form {
+    display: inline;
+}
+
+#logout-form button {
+    background: none;
+    border: 0;
+    cursor: pointer;
+    font-family: var(--font-family-primary);
+}
+
+#user-tools {
+    float: right;
+    margin: 0 0 0 20px;
+    text-align: right;
+}
+
+#user-tools, #logout-form button{
+    padding: 0;
+    font-weight: 300;
+    font-size: 0.6875rem;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+#user-tools a, #logout-form button {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+#user-tools a:focus, #user-tools a:hover,
+#logout-form button:active, #logout-form button:hover {
+    text-decoration: none;
+    border-bottom: 0;
+}
+
+#logout-form button:active, #logout-form button:hover {
+    margin-bottom: 1px;
+>>>>>>> master
 }
 
 /* SIDEBAR */
@@ -979,7 +1289,11 @@ table#change-history tbody th {
 }
 
 #content-related h4 {
+<<<<<<< HEAD
     font-size: 13px;
+=======
+    font-size: 0.8125rem;
+>>>>>>> master
 }
 
 #content-related p {
@@ -1003,7 +1317,11 @@ table#change-history tbody th {
     padding: 16px;
     margin-bottom: 16px;
     border-bottom: 1px solid var(--hairline-color);
+<<<<<<< HEAD
     font-size: 18px;
+=======
+    font-size: 1.125rem;
+>>>>>>> master
     color: var(--body-fg);
 }
 
@@ -1023,8 +1341,13 @@ table#change-history tbody th {
 .delete-confirmation form .cancel-link {
     display: inline-block;
     vertical-align: middle;
+<<<<<<< HEAD
     height: 15px;
     line-height: 15px;
+=======
+    height: 0.9375rem;
+    line-height: 0.9375rem;
+>>>>>>> master
     border-radius: 4px;
     padding: 10px 15px;
     color: var(--button-fg);
@@ -1050,3 +1373,56 @@ table#change-history tbody th {
 .popup #header {
     padding: 10px 20px;
 }
+<<<<<<< HEAD
+=======
+
+/* PAGINATOR */
+
+.paginator {
+    font-size: 0.8125rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 22px;
+    margin: 0;
+    border-top: 1px solid var(--hairline-color);
+    width: 100%;
+}
+
+.paginator a:link, .paginator a:visited {
+    padding: 2px 6px;
+    background: var(--button-bg);
+    text-decoration: none;
+    color: var(--button-fg);
+}
+
+.paginator a.showall {
+    border: none;
+    background: none;
+    color: var(--link-fg);
+}
+
+.paginator a.showall:focus, .paginator a.showall:hover {
+    background: none;
+    color: var(--link-hover-color);
+}
+
+.paginator .end {
+    margin-right: 6px;
+}
+
+.paginator .this-page {
+    padding: 2px 6px;
+    font-weight: bold;
+    font-size: 0.8125rem;
+    vertical-align: top;
+}
+
+.paginator a:focus, .paginator a:hover {
+    color: white;
+    background: var(--link-hover-color);
+}
+
+.base-svgs {
+    display: none;
+}
+>>>>>>> master

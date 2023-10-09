@@ -69,7 +69,12 @@
         margin-right: 15px;
     }
 
+<<<<<<< HEAD
     [dir="rtl"] .aligned ul {
+=======
+    [dir="rtl"] .aligned ul,
+    [dir="rtl"] form .aligned ul.errorlist {
+>>>>>>> master
         margin-right: 0;
     }
 
